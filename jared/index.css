@@ -1,0 +1,12 @@
+
+body {
+  color: white;
+  background: url(Pictures/background.gif) no-repeat;
+  background-size: cover;
+  background-position: top center;
+
+}
+header {
+  font-size: 50px;
+  color: white;
+}

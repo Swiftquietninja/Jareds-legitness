@@ -1,0 +1,9 @@
+body {
+  color: white;
+  background-image: url("Pictures/game-background(2).jpg");
+  background-position: top center ;
+  background-size: auto;
+}
+header {
+  font-size: 50px;
+}

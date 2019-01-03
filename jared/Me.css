@@ -1,0 +1,31 @@
+body {
+  background: url("Pictures/me-background(2).jpg");
+  background-size: auto;
+  background-position: top center;
+}
+header {
+  font-size: 50px;
+}
+#Books, th, td {
+  color: white;
+  border: 1px solid white;
+}
+@keyframes change{
+  0% {background-color: red;}
+  10% {background-color: orange;}
+  20% {background-color: yellow;}
+  30% {background-color: green;}
+  40% {background-color: blue;}
+  50% {background-color: indigo;}
+  60% {background-color: violet;}
+  70% {background-color: salmon;}
+  80% {background-color: linen;}
+  90% {background-color: grey;}
+  100% {background-color: beige;}
+}
+#animation {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation: change 20s infinite;
+}
